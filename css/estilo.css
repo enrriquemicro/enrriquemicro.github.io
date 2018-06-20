@@ -1,0 +1,93 @@
+*{
+	margin: 0px; /* 5px */
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+body{
+    background: #002A54;
+}
+
+header{
+    text-align: center;
+    margin: 1.5em;
+    font-size: 1.2em;
+}
+
+header h1{
+    color: white;
+}
+a{
+	color: black;
+}
+
+nav{
+	background: #d2ddf0; /* SIN TRANSPARENCIA: rgb(210, 221, 240); */ /* CON TRANSPARENCIA: rgba(165, 186, 224, .5); */ /* CON TRANSPARENCIA: #a5bae0 */ /* ANTES ERA rgba(255, 255, 255, .5) */
+	margin: 0px; /* 10px 5px 0px 5px */
+	padding: 5px 15px;
+	text-align: center;
+	border-radius: 0px; /* 10px */
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+	position: relative;
+	z-index: 20;
+}
+
+nav li{
+	display: inline-block;
+	list-style: none;
+	margin: 15px 25px; /* NO HABIA NADA, ESTO ES NUEVO */
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition: all .9s ease;
+}
+
+nav li:hover{
+	color: yellow; /* QUEDA SIN EFECTO AL ESPECIFICARSE: .menu li li a:hover */
+	border-radius: 10px;
+	transform: translateY(-10px);
+	box-shadow: 300px 0 #60c659 inset, /* 300px 0 #ff9338 inset */
+				-300px 0 #60c659 inset; /* -300px 0 #ff9338 inset */
+}
+
+nav li li a:hover{
+	color: yellow; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li ul{
+	display: none;
+}
+
+nav li:hover > ul{
+	display: block;
+}
+
+nav li{
+	position: relative;
+}
+
+nav li ul{
+	position: absolute;
+}
+
+nav li li{
+	background: #f0e68c;
+	display: block;
+	font-size: 11px;
+	width: 200px;
+	top: 100%;
+	margin: 15px; /* 10px */
+	border-radius: 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li li:hover{
+	background: #f0e68c;
+	transform: translateX(15px);
+	box-shadow: 250px 0 #1cce28 inset;
+}
+
+menu a:hover{
+	color: white; /* lime */
+}
