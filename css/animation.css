@@ -1,0 +1,11 @@
+.ipiba{
+  animation: logo 2s infinite linear alternate;
+}
+@keyframes logo{
+  from{
+    transform: rotate3d(0,0,0,0deg);
+  }
+  to{
+    transform: rotate3d(0,1,0,90deg);
+  }
+}

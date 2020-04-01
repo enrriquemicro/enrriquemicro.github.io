@@ -1,0 +1,90 @@
+/*
+@media screen and (min-width: 10px){
+    p{
+        background: red;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 250px){
+    p{
+        background: green;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 500px){
+    p{
+        background: yellow;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    p{
+        background: pink;
+        color: black;
+    }
+}*/
+
+
+
+@media (max-width: 320px){
+    body{
+        background: yellow;
+    }
+    p{
+        background: red;
+        color: white;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    body{
+        background: red;
+    }
+    p{
+        background: green;
+        color: black;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+        background: pink;
+    }
+    p{
+        background: purple;
+        color: white;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    body{
+        background: green;
+    }
+    p{
+        background: pink;
+        color: green;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    body{
+        background: red;
+    }
+    p{
+        background: blue;
+        color: black;
+    }
+}
+
+@media (min-width: 1201px){
+    body{
+        background: blue;
+    }
+    p{
+        background: red;
+        color: white;
+    }
+}

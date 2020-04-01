@@ -1,0 +1,559 @@
+@media (max-width: 320px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      /*font-size: .8em;*/
+      /*font-size: .7em;*/
+      /*font-size: .6em;*/
+      /*font-size: .58em;*/
+      font-size: .56em;
+      /*max-height: .5em;*/
+      /*max-height: .4em;*/
+      /*max-height: .3em;*/
+      /*max-height: .2em;*/
+      /*max-height: .18em;*/
+      max-height: .16em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+      /*margin: 0em 0em 0.9em 0em;*/
+      margin: 0em 0em -3.0em 0em;
+      visibility: hidden;
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos .location1{
+      visibility: hidden;
+    }
+    .datos .location2{
+      visibility: hidden;
+    }
+    .datos .phone{
+      visibility: hidden;
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      /*width: 8px;*/
+      /*width: 8px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      /*height: 8px;*/
+      /*height: 8px;*/
+      height: 8px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      /*margin: 1.5em 0.5em -0.5em 0.5em;*/
+      /*margin: 1em 0.5em -0.3em 0.5em;*/
+      /*margin: 0.9em 0.5em -0.1em 0.5em;*/
+      /*margin: 0.9em 0.5em 0.1em 0.5em;*/
+      /*margin: 0.9em 0.5em 0.3em 0.5em;*/
+      margin: 0.7em 0.5em 0.3em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      /*width: 35px;*/
+      /*width: 30px;*/
+      /*width: 25px;*/
+      width: 20px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      /*transform: scale(1.5);*/
+      transform: scale(1.2);
+      transition: all .9s ease;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      /*font-size: .8em;*/
+      /*font-size: .7em;*/
+      /*font-size: .6em;*/
+      font-size: .58em;
+      /*max-height: .5em;*/
+      /*max-height: .4em;*/
+      /*max-height: .3em;*/
+      /*max-height: .2em;*/
+      max-height: .18em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+      /*margin: 0em 0em 0.9em 0em;*/
+      margin: 0em 0em -3.0em 0em;
+      visibility: hidden;
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos .location1{
+      visibility: hidden;
+    }
+    .datos .location2{
+      visibility: hidden;
+    }
+    .datos .phone{
+      visibility: hidden;
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      /*width: 8px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      /*height: 8px;*/
+      height: 8px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      /*margin: 1.5em 0.5em -0.5em 0.5em;*/
+      /*margin: 1em 0.5em -0.3em 0.5em;*/
+      /*margin: 0.9em 0.5em -0.1em 0.5em;*/
+      /*margin: 0.9em 0.5em 0.1em 0.5em;*/
+      margin: 0.9em 0.5em 0.3em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      /*width: 35px;*/
+      /*width: 30px;*/
+      /*width: 25px;*/
+      width: 20px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      /*transform: scale(1.5);*/
+      transform: scale(1.2);
+      transition: all .9s ease;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      /*font-size: .8em;*/
+      /*font-size: .7em;*/
+      /*font-size: .6em;*/
+      font-size: .58em;
+      /*max-height: .5em;*/
+      /*max-height: .4em;*/
+      /*max-height: .3em;*/
+      /*max-height: .2em;*/
+      max-height: .18em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+      /*margin: 0em 0em 0.9em 0em;*/
+      margin: 0em 0em -3.0em 0em;
+      visibility: hidden;
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos .location1{
+      visibility: hidden;
+    }
+    .datos .location2{
+      visibility: hidden;
+    }
+    .datos .phone{
+      visibility: hidden;
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      /*width: 8px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      /*height: 8px;*/
+      height: 8px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      /*margin: 1.5em 0.5em -0.5em 0.5em;*/
+      /*margin: 1em 0.5em -0.3em 0.5em;*/
+      /*margin: 0.9em 0.5em -0.1em 0.5em;*/
+      /*margin: 0.9em 0.5em 0.1em 0.5em;*/
+      margin: 0.9em 0.5em 0.3em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      /*width: 35px;*/
+      /*width: 30px;*/
+      width: 25px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      /*transform: scale(1.5);*/
+      transform: scale(1.2);
+      transition: all .9s ease;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      /*font-size: .8em;*/
+      /*font-size: .7em;*/
+      font-size: .6em;
+      /*max-height: .5em;*/
+      /*max-height: .4em;*/
+      /*max-height: .3em;*/
+      max-height: .2em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+      margin: 0em 0em 0.9em 0em;
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      height: 8px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      /*margin: 1.5em 0.5em -0.5em 0.5em;*/
+      /*margin: 1em 0.5em -0.3em 0.5em;*/
+      /*margin: 0.9em 0.5em -0.1em 0.5em;*/
+      margin: 0.9em 0.5em 0.1em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      /*width: 35px;*/
+      width: 30px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      transform: scale(1.5);
+      transition: all .9s ease;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      /*font-size: .8em;*/
+      font-size: .7em;
+      /*max-height: .5em;*/
+      /*max-height: .4em;*/
+      max-height: .3em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      width: 13px;
+      /*height: 16px;*/
+      height: 13px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      /*margin: 1.5em 0.5em -0.5em 0.5em;*/
+      margin: 1em 0.5em -0.3em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      width: 35px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      transform: scale(1.5);
+      transition: all .9s ease;
+    }
+}
+
+@media (min-width: 1201px){
+    footer{
+      background: #cbcbcb;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      margin-left: -8px;
+      border-top: 2px solid #999999;
+    }
+
+    footer p{
+      /*font-size: .9em;*/
+      font-size: .8em;
+      /*max-height: .5em;*/
+      max-height: .4em;
+    }
+
+    .general{
+      width: 50%;
+      margin: 0px 0px 1% 1%;
+      /*background: lime;*/
+    }
+
+    .nombre_empresa{
+      /*color: blue;*/
+    }
+
+    .datos{
+      /*color: green;*/
+    }
+
+    .datos img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .derechos{
+      /*color: yellow;*/
+      /*margin: 1.5em 0.5em 0em 0.5em;*/
+      margin: 1.5em 0.5em -0.5em 0.5em;
+    }
+
+    .redes{
+      /*background: yellow;*/
+      width: 50%;
+      height: auto;
+      /*margin: 0px  0 0 15px;*/
+      border-left: 2px solid white;
+      text-align: center;
+    }
+
+    .redes img{
+      margin: 0em 1em;
+      border-radius: 0px;
+      /*width: 50px;*/
+      width: 45px;
+      height: 100%;
+      margin:0% 10% 0% 10%;
+      /*background-color: red;*/
+    }
+
+    .redes img:hover{
+      /*transform: scale(1.8);*/
+      transform: scale(1.5);
+      transition: all .9s ease;
+      /*filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);*/
+      /*filter: invert(0.4) sepia(1) hue-rotate(200deg) saturate(1000%);*/
+      /*filter: invert(0.4) sepia(1) hue-rotate(50deg) saturate(1000%);*/
+      /*filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);*/
+    }
+}
