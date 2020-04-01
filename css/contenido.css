@@ -15,8 +15,8 @@
 
     section{
       color: black;
-      /*background: #F5F5F5;*/
-      background: lime;
+      background: #F5F5F5;
+      /*background: lime;*/
       /*display: flex;*/
       /*position: absolute;*/
       /*width: 50%;*/
@@ -78,7 +78,8 @@
       /*width: auto;*/
       width: 50%;
       /*z-index: -4;*/
-      display: none;
+      /*display: none;*/
+      visibility: collapse;
     }
 
     aside figure{
