@@ -16,9 +16,9 @@
 
     section{
       color: black;
-      background: #F5F5F5;
+      /*background: #F5F5F5;*/
       /*background: lime;*/
-      /*background: pink;*/
+      background: pink;
       /*display: flex;*/
       /*position: absolute;*/
       /*width: 50%;*/
@@ -131,8 +131,8 @@
 
     section{
       color: black;
-      background: #F5F5F5;
-      /*background: lime;*/
+      /*background: #F5F5F5;*/
+      background: lime;
       /*display: flex;*/
       /*position: absolute;*/
       /*width: 50%;*/
