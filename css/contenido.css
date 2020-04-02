@@ -79,8 +79,8 @@
       /*width: auto;*/
       width: 50%;
       /*z-index: -4;*/
-      /*display: none;*/
-      visibility: collapse;
+      display: none;
+      /*visibility: collapse;*/
     }
 
     aside figure{
