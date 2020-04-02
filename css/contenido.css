@@ -11,7 +11,7 @@
       /*margin: 30px -8px -30px -8px;*/
       /*z-index: -3;*/
       width: auto;
-      height: 80vh;
+      height: 79vh;
     }
 
     section{
@@ -126,7 +126,8 @@
       /*margin: 30px -8px -30px -8px;*/
       /*z-index: -3;*/
       width: auto;
-      height: 30em;
+      /*height: 30em;*/
+      height: 79vh;
     }
 
     section{

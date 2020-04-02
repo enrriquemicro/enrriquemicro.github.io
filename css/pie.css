@@ -3,7 +3,7 @@
       background: #cbcbcb;
       width: 100%;
       /*height: auto;*/
-      height: 10vh;
+      height: 10.3vh;
       display: flex;
       position: absolute;
       margin-left: -8px;
@@ -115,7 +115,8 @@
     footer{
       background: #cbcbcb;
       width: 100%;
-      height: auto;
+      /*height: auto;*/
+      height: 10.3vh;
       display: flex;
       position: absolute;
       margin-left: -8px;
