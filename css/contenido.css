@@ -587,9 +587,8 @@
       width: 45%;
       height: 55%;
       border-radius: 20px;
-      /*position: fixed;*/
-      position: inherit;
-      /*display: flex;*/
+      position: fixed;
+      display: flex;
       margin: 2.5%;
     }
     aside img{
