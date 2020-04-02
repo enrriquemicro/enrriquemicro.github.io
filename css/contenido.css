@@ -11,14 +11,14 @@
       /*margin: 30px -8px -30px -8px;*/
       /*z-index: -3;*/
       width: auto;
-      height: 79vh;
+      /*height: 79vh;*/
     }
 
     section{
       color: black;
       /*background: #F5F5F5;*/
       /*background: lime;*/
-      background: red;
+      background: pink;
       /*display: flex;*/
       /*position: absolute;*/
       /*width: 50%;*/
@@ -71,8 +71,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: lime;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -127,7 +127,7 @@
       /*z-index: -3;*/
       width: auto;
       /*height: 30em;*/
-      height: 79vh;
+      /*height: 79vh;*/
     }
 
     section{
@@ -186,8 +186,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: yellow;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -240,13 +240,13 @@
       margin: 30px -8px 0px -8px;
       /*z-index: -3;*/
       width: auto;
-      height: 30em;
+      /*height: 30em;*/
     }
 
     section{
       color: black;
       /*background: #F5F5F5;*/
-      background: pink;
+      background: gray;
       /*display: flex;*/
       /*position: absolute;*/
       width: 50%;
@@ -296,7 +296,7 @@
 
     aside{
       /*background: #F5F5F5;*/
-      background: yellow;
+      background: black;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -346,13 +346,13 @@
       margin: 42px -8px 0px -8px;
       /*z-index: -3;*/
       width: auto;
-      height: 30em;
+      /*height: 30em;*/
     }
 
     section{
       color: black;
-      background: #F5F5F5;
-      /*background: lime;*/
+      /*background: #F5F5F5;*/
+      background: pink;
       /*display: flex;*/
       /*position: absolute;*/
       width: 50%;
@@ -394,8 +394,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: purple;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -441,13 +441,13 @@
       margin: 44px -8px 0px -8px;
       /*z-index: -3;*/
       width: auto;
-      height: 30em;
+      /*height: 30em;*/
     }
 
     section{
       color: black;
-      background: #F5F5F5;
-      /*background: lime;*/
+      /*background: #F5F5F5;*/
+      background: green;
       /*display: flex;*/
       /*position: absolute;*/
       width: 50%;
@@ -485,8 +485,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: pink;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -530,13 +530,13 @@
       margin: 45px -8px 0px -8px;
       /*z-index: -3;*/
       width: auto;
-      height: 30em;
+      /*height: 30em;*/
     }
 
     section{
       color: black;
-      background: #F5F5F5;
-      /*background: lime;*/
+      /*background: #F5F5F5;*/
+      background: lime;
       /*display: flex;*/
       /*position: absolute;*/
       width: 50%;
@@ -573,8 +573,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: yellow;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
