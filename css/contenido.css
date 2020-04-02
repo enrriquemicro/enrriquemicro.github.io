@@ -11,6 +11,7 @@
       /*margin: 30px -8px -30px -8px;*/
       /*z-index: -3;*/
       width: auto;
+      height: 30em;
     }
 
     section{
@@ -125,6 +126,7 @@
       /*margin: 30px -8px -30px -8px;*/
       /*z-index: -3;*/
       width: auto;
+      height: 30em;
     }
 
     section{
@@ -237,12 +239,13 @@
       margin: 30px -8px 0px -8px;
       /*z-index: -3;*/
       width: auto;
+      height: 30em;
     }
 
     section{
       color: black;
-      background: #F5F5F5;
-      /*background: lime;*/
+      /*background: #F5F5F5;*/
+      background: lime;
       /*display: flex;*/
       /*position: absolute;*/
       width: 50%;
@@ -291,8 +294,8 @@
     }
 
     aside{
-      background: #F5F5F5;
-      /*background: yellow;*/
+      /*background: #F5F5F5;*/
+      background: yellow;
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
