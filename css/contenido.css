@@ -69,8 +69,8 @@
     }
 
     aside{
-      /*background: #F5F5F5;*/
-      background: yellow;
+      background: #F5F5F5;
+      /*background: yellow;*/
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
@@ -78,8 +78,8 @@
       /*width: auto;*/
       width: 50%;
       /*z-index: -4;*/
-      display: none;
-      /*visibility: collapse;*/
+      /*display: none;*/
+      visibility: collapse;
     }
 
     aside figure{
@@ -182,8 +182,8 @@
     }
 
     aside{
-      /*background: #F5F5F5;*/
-      background: yellow;
+      background: #F5F5F5;
+      /*background: yellow;*/
       /*width: 50%;*/ /* ORIGINAL PARA VIDEO SIN FIXED */
       /* MODIFICACION PARA VIDEO CON FIXED */
       /*width: 43em;*/
