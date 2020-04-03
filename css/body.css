@@ -1,3 +1,23 @@
+body{
+  background: blue;
+}
+nav{
+  display: flex;
+  /*background: white;*/
+  margin: -5px;
+  /*height: 10vh;*/
+}
+
+/*.navegacion ul{
+  display: inline-flex;
+  margin-right: 250px;
+}*/
+li{
+  background: green;
+}
+a{
+  background: red;
+}
 /*
 @media screen and (min-width: 10px){
     p{

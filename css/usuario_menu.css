@@ -1,0 +1,133 @@
+@media (max-width: 320px){
+    /*body{
+        background: yellow;
+    }
+    p{
+        background: red;
+        color: white;
+    }*/
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    /*body{
+        background: red;
+    }
+    p{
+        background: green;
+        color: black;
+    }*/
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    /*body{
+        background: pink;
+    }
+    p{
+        background: purple;
+        color: white;
+    }*/
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    /*body{
+        background: green;
+    }
+    p{
+        background: pink;
+        color: green;
+    }*/
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    /*body{
+        background: red;
+    }
+    p{
+        background: blue;
+        color: black;
+    }*/
+}
+
+@media (min-width: 1201px){
+    .evento1{
+      margin: 0px 0px 0px -135px;
+    }
+
+    .evento2{
+      margin: 0px 0px 0px -88px;
+    }
+
+    section ul{
+      cursor: pointer;
+      /*background: none;*/
+      background: #F5F5F5;
+      /*background: #16A085;*/
+      display: block;
+      list-style: none;
+      font-size: 1.05em;
+      /*width: auto;*/
+      /*height: 100%;*/
+    }
+
+    .nombre{
+      display:block;
+      width: 50%; /* PARA ACOPLAR AL TEXTO TOMA EL 100% O AUTO*/
+      margin: 15px 0px 5px 0px;
+      transform: translateY(3px);
+      border-radius: 5px;
+    }
+
+    section li:hover{
+      /*background: red;*/
+      background: #1ABC9C;
+    }
+
+    section li li{
+      color: white;
+      /*background: red;*/
+      background: #16A085;
+      display: block;
+      font-size: 0.95em;
+      /*width: 100%;*/ /* ANTES DE AGREGAR EL NOMBRE DE LOS MÓDULOS */
+      width: 150%;
+      /*text-align: center;*/ /* ANTES DE AGREGAR EL NOMBRE DE LOS MÓDULOS */
+      text-align: justify;
+      border-radius: 5px;
+    }
+
+    .nombre_evento{
+      margin: 5px 0px 5px 0px;
+      transform: translateY(3px);
+    }
+
+    section li li:hover{
+      /*background: green;*/
+      background: #1ABC9C;
+    }
+
+    section li li li{
+      color: white;
+      /*background: pink;*/
+      background: #16A085;
+      display: block;
+      /*display: none;*/
+      /*font-size: 0.85em;*/ /* ANTES DE AGREGAR EL NOMBRE DE LOS MÓDULOS */
+      font-size: 0.75em;
+      /*width: 100%;*/ /* ANTES DE AGREGAR EL NOMBRE DE LOS MÓDULOS */
+      width: 160%;
+      /*text-align: center;*/ /* ANTES DE AGREGAR EL NOMBRE DE LOS MÓDULOS */
+      text-align: justify;
+      border-radius: 5px;
+    }
+
+    .nombre_modulo{
+      margin: 5px 0px 5px 0px;
+      transform: translateY(3px);
+    }
+
+    section li li li:hover{
+      /*background: #1ABC9C;*/
+      /*background: #78BCC7;*/
+      background: #0099FF;
+    }
+}
