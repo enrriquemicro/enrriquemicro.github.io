@@ -1,0 +1,317 @@
+@media (max-width: 320px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      /*margin: 0px 0px 0px 20px;*/
+      /*margin: 0px 0px 0px -10px;*/
+      margin: 0px 0px 0px 0px;
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 200px;
+      /*font-size: 1.02em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 1.0em;*/
+      /*font-size: 0.85em;*/
+      /*font-size: 0.65em;*/
+      /*font-size: 0.62em;*/
+      font-size: 0.60em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      /*width: 8px;*/
+      width: 7px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      /*height: 8px;*/
+      height: 7px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      /*margin: 0px 0px 0px 20px;*/
+      /*margin: 0px 0px 0px -10px;*/
+      margin: 0px 0px 0px 0px;
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 200px;
+      /*font-size: 1.02em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 1.0em;*/
+      /*font-size: 0.85em;*/
+      /*font-size: 0.65em;*/
+      font-size: 0.62em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      height: 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      /*margin: 0px 0px 0px 20px;*/
+      /*margin: 0px 0px 0px -10px;*/
+      margin: 0px 0px 0px 0px;
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 200px;
+      /*font-size: 1.02em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 1.0em;*/
+      /*font-size: 0.85em;*/
+      font-size: 0.65em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 13px;*/
+      width: 10px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 13px;*/
+      height: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      /*margin: 0px 0px 0px 20px;*/
+      margin: 0px 0px 0px 0px;
+      /*width: 400px;*/
+      width: 300px;
+      /*font-size: 1.02em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 1.0em;*/
+      font-size: 0.85em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      width: 13px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      height: 13px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      /*margin: 0px 0px 0px 20px;*/
+      margin: 0px 0px 0px 0px;
+      width: 400px;
+      /*font-size: 1.02em;*/
+      /*font-size: 1.05em;*/
+      font-size: 1.0em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      width: 13px;
+      /*height: 16px;*/
+      height: 13px;
+    }
+}
+
+@media (min-width: 1201px){
+    section table{
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 0px 0px 0px 75px;*/
+      margin: 0px 0px 0px 0px;
+      width: 400px;
+      /*font-size: 1.02em;*/
+      font-size: 1.05em;
+    }
+
+    section tr:hover{
+      background: #f4ed7c;
+    }
+
+    section th{
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    section td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      border: 1px solid #999999;
+      /*width: 200px;*/
+    }
+
+    section .cuenta{
+      text-align: center;
+    }
+
+    section table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      width: 16px;
+      height: 16px;
+    }
+}

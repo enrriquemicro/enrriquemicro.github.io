@@ -1,0 +1,691 @@
+@media (max-width: 320px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      /*margin: -4px -8px 0px -8px;*/
+      /*margin: -4px -18px 0px -18px;*/
+      margin: -4px -38px 0px -38px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 250px;
+      /*height: 400px;*/
+      /*height: 300px;*/
+      /*height: 200px;*/
+      /*height: 100px;*/
+      height: 100px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      /*font-size: 1.15em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 0.89em;*/
+      /*font-size: 0.65em;*/
+      font-size: 0.62em;
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 250px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      /*line-height: 1.8em;*/
+      line-height: 1.5em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      /*width: 8px;*/
+      width: 7px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      /*height: 8px;*/
+      height: 7px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      /*margin: -4px -8px 0px -8px;*/
+      margin: -4px -18px 0px -18px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 250px;
+      /*height: 400px;*/
+      /*height: 300px;*/
+      /*height: 200px;*/
+      /*height: 100px;*/
+      height: 100px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      /*font-size: 1.15em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 0.89em;*/
+      /*font-size: 0.65em;*/
+      font-size: 0.62em;
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      /*width: 300px;*/
+      width: 250px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      /*line-height: 1.8em;*/
+      line-height: 1.5em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      /*width: 10px;*/
+      width: 8px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      /*height: 10px;*/
+      height: 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      margin: -4px -8px 0px -8px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      width: 300px;
+      /*height: 400px;*/
+      /*height: 300px;*/
+      /*height: 200px;*/
+      height: 100px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      /*font-size: 1.15em;*/
+      /*font-size: 1.05em;*/
+      /*font-size: 0.89em;*/
+      font-size: 0.65em;
+      /*width: 600px;*/
+      /*width: 500px;*/
+      /*width: 400px;*/
+      width: 300px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      /*line-height: 1.8em;*/
+      line-height: 1.5em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      /*width: 13px;*/
+      width: 10px;
+      /*height: 16px;*/
+      /*height: 13px;*/
+      height: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      margin: -4px -8px 0px -8px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      /*width: 600px;*/
+      /*width: 500px;*/
+      width: 400px;
+      /*height: 400px;*/
+      /*height: 300px;*/
+      height: 200px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      /*font-size: 1.15em;*/
+      /*font-size: 1.05em;*/
+      font-size: 0.89em;
+      /*width: 600px;*/
+      /*width: 500px;*/
+      width: 400px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      /*line-height: 1.8em;*/
+      line-height: 1.5em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      width: 13px;
+      /*height: 16px;*/
+      height: 13px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      margin: -4px -8px 0px -8px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      /*width: 600px;*/
+      width: 500px;
+      /*height: 400px;*/
+      height: 300px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      /*font-size: 1.15em;*/
+      font-size: 1.05em;
+      /*width: 600px;*/
+      width: 500px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      /*line-height: 1.8em;*/
+      line-height: 1.5em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      /*width: 16px;*/
+      width: 13px;
+      /*height: 16px;*/
+      height: 13px;
+    }
+}
+
+@media (min-width: 1201px){
+    .principal{
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      /*background: red;*/
+      /*background: #F5F5F5;*/
+      /*background: #78BCC7;*/
+      /*background: #D6F2F9;*/
+      background: #CAEEF7;
+      /*background: #EDF4F2;*/
+      margin: -4px -8px 0px -8px;
+      text-align: center;
+      /*z-index: 1;*/
+    }
+
+    .segunda_main figure{
+      display: inline-table;
+      width: auto;
+    }
+
+    .segunda_main img{
+      width: 600px;
+      height: 400px;
+      margin: 10px 15px 30px 15px;
+      border-radius: 10px;
+      filter: grayscale(80%);
+      /*filter: brightness(60%);*/
+    }
+
+    .segunda_main img:hover{
+      /*background-image: url("../icons/ipiba.svg");*/
+      /*filter: opacity(50%);*/
+      transform: scale(1.025);
+      filter: grayscale(0%);
+      z-index: 50;
+    }
+
+    .curso{
+      display: inline-table;
+      /*background: yellow;*/
+    }
+
+    .curso_datos{
+      /*background: green;*/
+      display: flex;
+      /*margin: -50px 0px 80px 0px;*/ /* SIN AGREGAR EL PRECIO EN DÓLARES */
+      margin: -50px 0px 120px 0px; /* CON EL PRECIO EN DÓLARES */
+      height: 100px;
+    }
+
+    .segunda_main p{
+      margin: -15px 0px 50px 0px;
+      /*text-align: center;*/
+      font-size: 1.15em; /*font-size: 18px;*/
+      line-height: 1.5em;
+    }
+
+    .segunda_main table{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: white;
+      border: 1px solid #999999;
+      border-collapse: collapse;
+      text-align: center;
+      /*margin: 30px 0px;*/
+      font-size: 1.15em;
+      width: 600px;
+      margin: 25px 15px 30px 15px;
+      border-radius: 0px;
+    }
+
+    .segunda_main tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #f4ed7c; /* #eee */
+    }
+
+    .segunda_main th{ /* NO HABIA NADA, ESTO ES NUEVO */
+      background: #eeeeee;
+      text-align: justify;
+      line-height: 2em;
+      border: 1px solid #999999;
+    }
+
+    .segunda_main td{ /* NO HABIA NADA, ESTO ES NUEVO */
+      text-align: justify;
+      line-height: 1.8em;
+      /*border: 1px solid #999999;*/
+      /*width: 200px;*/
+    }
+
+    .cuenta{
+      text-align: center;
+    }
+
+    .segunda_main table img{
+      margin: 0em 0.5em;
+      border-radius: 0px;
+      width: 16px;
+      height: 16px;
+    }
+}
