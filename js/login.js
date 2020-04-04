@@ -4,6 +4,8 @@ function login(){
 	document.getElementById('seccion').style.display = 'none';
 	// OCULTANDO #aside
 	document.getElementById('aside').style.display = 'none';
+	// OCULTANDO #ver_video
+	document.getElementById('ver_video').style.display = 'none';
 
 	// ESTABLECIENDO LA FUNCIÓN TRAS CLICK EN EL BOTÓN DE LOGIN
 	enviar.addEventListener("click", function(){
@@ -19,6 +21,7 @@ function login(){
 			document.getElementById('loging').style.display = 'none';
 			document.getElementById('seccion').style.display = 'block';
 			document.getElementById('aside').style.display = 'block';
+			document.getElementById('ver_video').style.display = 'block';
 		}
 
 		// MOSTRANDO EL SALUDO DEL AULA VIRTUAL
