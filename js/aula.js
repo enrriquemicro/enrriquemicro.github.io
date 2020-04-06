@@ -26,6 +26,7 @@ function aula(){
     lectura_complementaria.setAttribute("href", "material/gigantes_lectura.pdf");
     tarea_domiciliaria.setAttribute("href", "material/gigantes_tarea.pdf");
     video_aula.setAttribute("src", "video/2.mp4");
+    // video_aula.setAttribute("src", "https://youtu.be/W2mTMkA6DZg");
     video_aula.setAttribute("poster", "img/poster_ed.png");
     video_aula.setAttribute("controls", "");
   });
