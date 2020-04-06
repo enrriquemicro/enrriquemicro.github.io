@@ -9,7 +9,8 @@ body{
 
 .cabecera{
   /*background: red;*/
-  background: #0F076D;
+  /*background: #0F076D;*/
+  background: #0B317A;
   /*width: 100%;*/
   width: 100vw;
   height: 20vh;
@@ -73,7 +74,10 @@ body{
 }
 
 .login{
-  background: green;
+  /*background: green;*/
+  /*FONDO DEL AREA DE MATERIAL_AULA DE LA SEGUNDA WEB*/
+  background: #E9EAEC;
+  /*background: #B5BCC2;*/
   width: 100vw;
   height: 40vh;
   line-height: 40vh;
