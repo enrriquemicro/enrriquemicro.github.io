@@ -27,8 +27,9 @@ function aula(){
     tarea_domiciliaria.setAttribute("href", "material/gigantes_tarea.pdf");
     video_aula.setAttribute("src", "video/2.mp4");
     // video_aula.setAttribute("src", "https://youtu.be/W2mTMkA6DZg");
+    // ver_video.setAttribute("src", "https://youtu.be/W2mTMkA6DZg");
     video_aula.setAttribute("poster", "img/poster_ed.png");
-    video_aula.setAttribute("controls", "");
+    // video_aula.setAttribute("controls", "");
   });
   //FUNCION PARA EL CURSO CyT 3° SEMANA 3
   //FUNCION PARA EL CURSO CyT 3° SEMANA 4
