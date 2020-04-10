@@ -4,7 +4,8 @@
 }
 body{
   /*background: lime;*/
-    background: #E9EAEC;
+    /*background: #E9EAEC;*/
+    background: #E9F9F8;
 }
 
 .cabecera{
@@ -41,7 +42,10 @@ body{
 
 .foto{
   /*background: purple;*/
-  background: #B5EECD;
+  /*background: #B5EECD;*/
+  /*background: #DBEDFF;*/
+  background: #DCEFFE;
+  /*background: #E9F9F8;*/
   width: 50vw;
   /*line-height: 50vw;*/
 }
@@ -62,7 +66,8 @@ body{
 
 .texto{
   /*background: lime;*/
-  background: #B5EECD;
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
   width: 50vw;
 }
 .texto p{
@@ -76,7 +81,8 @@ body{
 .login{
   /*background: green;*/
   /*FONDO DEL AREA DE MATERIAL_AULA DE LA SEGUNDA WEB*/
-  background: #E9EAEC;
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
   /*background: #B5BCC2;*/
   width: 100vw;
   height: 40vh;

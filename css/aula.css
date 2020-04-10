@@ -4,7 +4,8 @@
 }
 body{
   /*background: lime;*/
-  background: #E9EAEC;
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
 }
 
 .cabecera_aula{
@@ -41,7 +42,8 @@ body{
 
 .foto_aula{
   /*background: purple;*/
-  background: #B5EECD;
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
   width: 50vw;
   /*line-height: 50vw;*/
 }
@@ -62,7 +64,8 @@ body{
 
 .cursos_aula{
   /*background: black;*/
-  background: #B5EECD;
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
   width: 50vw;
 }
 .cursos_aula p{
@@ -76,7 +79,8 @@ body{
   /*color: #9B8B99;*/
   color: #0F2B8E;
   /*background: #373277;*/
-  background: #B5EECD;
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
   display: block;
   /*position: relative;*/
   width: 50vW;
@@ -148,7 +152,8 @@ body{
 
 .clase_aula{
   /*background: yellow;*/
-  background: #E9EAEC;
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
   width: 100vw;
   display: inline-flex;
   height: 40vh;
@@ -157,7 +162,8 @@ body{
 
 .material_aula{
   /*background: blue;*/
-  background: #E9EAEC;
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
   width: 50vw;
   line-height: 50vw;
   /*margin-top: -5vh;*/
@@ -213,7 +219,8 @@ body{
 
 .poster_aula{
   /*background: red;*/
-  background: #E9EAEC;
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
   width: 50vw;
   /*margin-top: -4vh;*/
   /*height: 40vh;*/
@@ -239,7 +246,7 @@ body{
 .poster_aula img{
   width: 50vw;
   height: 40vh;
-  border-radius: 3vw;
+  border-radius: 1vw;
 }
 
 
