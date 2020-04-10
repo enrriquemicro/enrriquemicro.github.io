@@ -211,7 +211,7 @@ body{
   margin-top: 1vh;
 }*/
 
-.video_aula{
+.poster_aula{
   /*background: red;*/
   background: #E9EAEC;
   width: 50vw;
@@ -228,19 +228,25 @@ body{
   text-align: justify;
   margin: 4vmin;
 }*/
-.video_aula video{
+
+/*.video_aula video{
   width: 50vw;
   height: 40vh;
+}*/
+
+
+
+.poster_aula img{
+  width: 50vw;
+  height: 40vh;
+  border-radius: 3vw;
 }
 
 
-
-
-
-
-.video2{
+.video_aula{
   width: 100vw;
   height: 100vh;
+  border: none;
 }
 /*figure iframe{
   width: 40vw;
