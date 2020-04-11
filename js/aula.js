@@ -1,6 +1,10 @@
 function aula(){
   "use strict";
   //OCULTAR LA PRIMERA WEB
+  function ocultar_primera_web(){
+    document.getElementById("cabecera").style.display = 'none';
+    document.getElementById("contenido").style.display = 'none';
+  }
   //MANDAR ENLACES AL AULA
   //OCULTAR LECTURA COMPLEMENTARIA Y TAREA DOMICILIARIA
   //OCULTAR SOLO EL VIDEO PARA MAXIMIZAR EN EL CELULAR
@@ -8,6 +12,7 @@ function aula(){
   //FUNCION PARA EL CURSO CyT 3° SEMANA 1
   cyt3sem1.addEventListener("click", function(){
     // var cyt3sem1 = document.getElementById("cyt3sem1");
+    ocultar_primera_web();
     tema_semana.innerHTML = "Tema: Diagnóstico del Coronavirus.";
     fecha_presentacion.innerHTML = "Fecha de Presentación: 17 de Abril del 2020.";
     lectura_complementaria.setAttribute("href", "material/Lectura_Complementaria.pdf");
