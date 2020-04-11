@@ -2,8 +2,8 @@ function aula(){
   "use strict";
   //OCULTAR LA PRIMERA WEB
   function ocultar_primera_web(){
-    document.getElementById("cabecera").style.display = 'none';
-    document.getElementById("contenido").style.display = 'none';
+  document.getElementById("cabecera").style.display = 'none';
+  document.getElementById("contenido").style.display = 'none';
   }
   //MANDAR ENLACES AL AULA
   //OCULTAR LECTURA COMPLEMENTARIA Y TAREA DOMICILIARIA
@@ -26,6 +26,7 @@ function aula(){
   //FUNCION PARA EL CURSO CyT 3° SEMANA 2
   cyt3sem2.addEventListener("click", function(){
     // var cyt3sem1 = document.getElementById("cyt3sem1");
+    ocultar_primera_web();
     tema_semana.innerHTML = "Tema: Gigantes del Cenepa.";
     fecha_presentacion.innerHTML = "Fecha de Presentación: 24 de Abril del 2020.";
     lectura_complementaria.setAttribute("href", "material/gigantes_lectura.pdf");
