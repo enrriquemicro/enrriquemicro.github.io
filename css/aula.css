@@ -2,25 +2,53 @@
   margin: 0px;
   padding: 0px;
 }
+
 body{
-  /*background: lime;*/
-  /*background: #E9EAEC;*/
-  background: #E9F9F8;
+  background: #E9EAEC;
+  /*background: red;*/
 }
 
 .cabecera_aula{
-  /*background: red;*/
-  /*background: #0F076D;*/
   background: #0B317A;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
   /*width: 100%;*/
   width: 100vw;
-  height: 20vh;
-  line-height: 20vh;
+  /*height: 20vh;*/
+  height: 10vh;
+  /*line-height: 20vh;*/
+  /*line-height: 10vh;*/
+  line-height: 5vh;
   color: #ffffff;
   text-align: center;
-  /*font-size: 3em;*/
   font-size: 7vmin;
 }
+.cabecera_aula .academia_aula{
+  /*position: absolute;*/
+  padding-top: 2.5vh;
+  font-family: ethnocentric;
+}
+@font-face {
+  font-family: "ethnocentric";
+  src: url("../font/ethnocentric.ttf");
+}
+.lema_aula{
+  background: #0B317A;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
+  /*background: red;*/
+  /*width: 100%;*/
+  width: 100vw;
+  height: 10vh;
+  /*line-height: 20vh;*/
+  line-height: 10vh;
+  color: #ffffff;
+  text-align: center;
+  font-size: 5vmin;
+}
+
 
 .contenido_aula{
   /*background: pink;*/
@@ -29,7 +57,8 @@ body{
   /*line-height: 40vh;*/
   color: #ffffff;
   text-align: center;
-  font-size: 7vmin;
+  /*font-size: 7vmin;*/
+  font-size: 0vmin;
 }
 
 .presentacion_aula{
@@ -40,33 +69,12 @@ body{
   line-height: 40vh;
 }
 
-.foto_aula{
-  /*background: purple;*/
-  /*background: #B5EECD;*/
-  background: #DCEFFE;
-  width: 50vw;
-  /*line-height: 50vw;*/
-}
-.foto_aula p{
-  font-size: 2.5vmin;
-  /*line-height: 3.0vh;*/
-  text-align: center;
-  /*margin: 3.0vmin;*/
-  margin-top: -35vh;
-  color: black;
-}
-.foto_aula img{
-  width: 13vmax;
-  height: 13vmax;
-  border-radius: 100vw;
-  margin-top: 1vh;
-}
-
 .cursos_aula{
   /*background: black;*/
   /*background: #B5EECD;*/
   background: #DCEFFE;
-  width: 50vw;
+  /*width: 50vw;*/
+  width: 100vw;
 }
 .cursos_aula p{
   font-size: 3.5vmin;
@@ -75,6 +83,7 @@ body{
   margin: 4vmin;
   color: black;
 }
+
 .navegacion_aula{
   /*color: #9B8B99;*/
   color: #0F2B8E;
@@ -83,9 +92,21 @@ body{
   background: #DCEFFE;
   display: block;
   /*position: relative;*/
-  width: 50vW;
+  /*width: 50vW;*/
+  width: 100vw;
   text-align: center;
+  /*margin: 0vmin;*/
+  /*border: none;*/
+  /*padding: 0.2vmin;*/
 }
+
+/* AQUÍ INICIA - NUEVA DISTRIBUCIÓN DE MENÚ DE NAVEGACIÓN*/
+.navegacion_aula .materia{
+  /*width: 9.6vw;*/
+  margin: 2vmin 3vmin 0vmin 3vmin;
+}
+/* AQUÍ FINALIZA - NUEVA DISTRIBUCIÓN DE MENÚ DE NAVEGACIÓN*/
+
 .navegacion_aula a{
   text-decoration: none;
   /*color: #9B8B99;*/
@@ -143,17 +164,12 @@ body{
   transition: all 0.2s ease;
 }
 
-/*.login{
-  background: green;
-  width: 100vw;
-  height: 40vh;
-  line-height: 40vh;
-}*/
+
+
 
 .clase_aula{
   /*background: yellow;*/
-  /*background: #E9EAEC;*/
-  background: #E9F9F8;
+  background: #E9EAEC;
   width: 100vw;
   display: inline-flex;
   height: 40vh;
@@ -162,8 +178,7 @@ body{
 
 .material_aula{
   /*background: blue;*/
-  /*background: #E9EAEC;*/
-  background: #E9F9F8;
+  background: #E9EAEC;
   width: 50vw;
   line-height: 50vw;
   /*margin-top: -5vh;*/
@@ -210,12 +225,8 @@ body{
   transform: scale(1.1);
   transition: all .5s ease;
 }
-/*.material_aula img{
-  width: 13vmax;
-  height: 13vmax;
-  border-radius: 100vw;
-  margin-top: 1vh;
-}*/
+
+
 
 .poster_aula{
   /*background: red;*/
@@ -229,19 +240,6 @@ body{
   /*line-height: 40vh;*/
   line-height: 0vh;
 }
-/*.video_aula p{
-  font-size: 3.5vmin;
-  line-height: 4vh;
-  text-align: justify;
-  margin: 4vmin;
-}*/
-
-/*.video_aula video{
-  width: 50vw;
-  height: 40vh;
-}*/
-
-
 
 .poster_aula img{
   width: 50vw;
@@ -250,12 +248,48 @@ body{
 }
 
 
-.video_aula{
+
+
+.comunicate_aula{
+  /*background: #0B317A;*/
+  background: #2AC54E;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
+  /*background: red;*/
+  /*width: 100%;*/
   width: 100vw;
-  height: 100vh;
+  /*height: 10vh;*/
+  height: 15vh;
+  /*line-height: 20vh;*/
+  /*line-height: 10vh;*/
+  line-height: 15vh;
+  color: white;
+  text-align: center;
+  font-size: 5vmin;
+  /*display: block;*/
+}
+.comunicate_aula p{
+  display: inline;
+  /*margin: -1vw 0vw;*/
+  /*text-align: center;*/
+}
+.comunicate_aula img{
+  margin: 2vmin 2vmin -1.5vmin 0vmin;
+  /*display: inline;*/
+  width: 6vmin;
+  height: 6vmin;
+}
+
+
+
+
+
+.video_aula{
+  /*background: black;*/
+  background: #2A2A2E;
+  width: 100vw;
+  /*height: 100vh;*/
+  height: 85vh;
   border: none;
 }
-/*figure iframe{
-  width: 40vw;
-  height: 30vh;
-}*/
