@@ -2,6 +2,7 @@ function login(){
   "use strict";
   //OCULTAR LA SEGUNDA WEB
   document.getElementById("cabecera_aula").style.display = 'none';
+  document.getElementById("lema_aula").style.display = 'none';
   document.getElementById("contenido_aula").style.display = 'none';
   // document.getElementById("cabecera").style.display = 'none';
 
@@ -17,12 +18,14 @@ function login(){
     //OCULTAR LA PRIMERA WEB
     function ocultar_primera_web(){
       document.getElementById("cabecera").style.display = 'none';
+      document.getElementById("lema").style.display = 'none';
       document.getElementById("contenido").style.display = 'none';
     }
 
     //MOSTRAR LA SEGUNDA WEB
     function mostrar_segunda_web(){
       document.getElementById("cabecera_aula").style.display = 'block';
+      document.getElementById("lema_aula").style.display = 'block';
       document.getElementById("contenido_aula").style.display = 'block';
     }
 
