@@ -1,150 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/slider.css">
-  <link rel="stylesheet" href="css/aula.css">
-  <title>ACADEMIA INTEGRAL</title>
-</head>
-<body>
-  <!-- PRIMERA WEB -->
-  <div class="cabecera" id="cabecera">
-    <p class="academia"><strong>ACADEMIA INTEGRAL</strong></p>
-  </div>
-  <div class="lema" id="lema">
-    <p class="formula"><em>¡Tenemos la fórmula...!</em></p>
-  </div>
-  <div class="contenido" id="contenido">
-    <div class="slider">
-      <ul>
-        <li><img src="img/1.jpg" alt=""></li>
-        <li><img src="img/2.jpg" alt=""></li>
-        <li><img src="img/3.jpg" alt=""></li>
-        <li><img src="img/4.jpg" alt=""></li>
-      </ul>
-    </div>
-    <div class="comunicate" id="comunicate">
-      <img src="img/app.svg" alt="">
-      <p class="celular"><strong>(+51) 910 010 258</strong></p>
-    </div>
-    <div class="login">
-        <form method="get" action="?" class="formulario">
-          <p><strong>Login</strong></p>
-          <input id="user" type="text" value="" placeholder="Usuario"/>
-          <input id="password" type="password" placeholder="Contraseña"/>
-          <button id="enviar" type="button" value="" class="login_boton">Ingresar</button>
-        </form>
-    </div>
-  </div>
-  <!-- SEGUNDA WEB -->
-  <div class="cabecera_aula" id="cabecera_aula">
-    <p class="academia_aula"><strong>ACADEMIA INTEGRAL</strong></p>
-  </div>
-  <div class="lema_aula" id="lema_aula">
-    <p class="formula_aula"><em>¡Tenemos la fórmula...!</em></p>
-  </div>
-  <div class="contenido_aula" id="contenido_aula">
-    <div class="presentacion_aula" id="presentacion_aula">
-      <div class="cursos_aula" id="cursos_aula">
-        <div class="navegacion_aula">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="description" content="INSTITUTO PERUANO DE INVESTIGACION BASICA Y APLICADA E.I.R.L."/>
+    <meta name="keywords" content="INSTITUTO, PERUANO, INVESTIGACION, BASICA, APLICADA"/>
+    <meta name="author" content="I.P.I.B.A. E.I.R.L."/>
+    <title>IPIBA | INICIO</title>
+    <link rel="icon" href="../icons/logoweb.png"/>
+    <link rel="stylesheet" href="../css/menu-dist.css"/>
+    <link rel="stylesheet" href="../css/contenido-dist.css"/>
+    <link rel="stylesheet" href="../css/contenido_tabla-dist.css"/>
+    <link rel="stylesheet" href="../css/principal-dist.css"/>
+    <link rel="stylesheet" href="../css/aula-dist.css"/>
+    <link rel="stylesheet" href="../css/usuario-dist.css"/>
+    <link rel="stylesheet" href="../css/usuario_menu-dist.css"/>
+    <link rel="stylesheet" href="../css/animation-dist.css"/>
+    <link rel="stylesheet" href="../css/pie-dist.css"/>
+  </head>
+  <body>
+    <div class="menu">
+      <nav>
+        <div class="empresa">
+          <p>Instituto Peruano de Investigación Básica y Aplicada</p>
+          <figure><img src="../icons/ipiba.svg" class="ipiba"/></figure>
+        </div>
+        <div class="navegacion">
           <ul>
-            <li class="materia"><a href="#"><strong>BIOLOGÍA</strong></a>
-              <ul>
-                <li><a href="#" id="bio_sem1">Sem. 1</a></li>
-                <li><a href="#" id="bio_sem2">Sem. 2</a></li>
-                <li><a href="#" id="bio_sem3">Sem. 3</a></li>
-                <li><a href="#" id="bio_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <li class="materia"><a href="#"><strong>FÍSICA</strong></a>
-              <ul>
-                <li><a href="#" id="fis_sem1">Sem. 1</a></li>
-                <li><a href="#" id="fis_sem2">Sem. 2</a></li>
-                <li><a href="#" id="fis_sem3">Sem. 3</a></li>
-                <li><a href="#" id="fis_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <li class="materia"><a href="#"><strong>QUÍMICA</strong></a>
-              <ul>
-                <li><a href="#" id="qui_sem1">Sem. 1</a></li>
-                <li><a href="#" id="qui_sem2">Sem. 2</a></li>
-                <li><a href="#" id="qui_sem3">Sem. 3</a></li>
-                <li><a href="#" id="qui_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <li class="materia"><a href="#"><strong>MATEMÁTICA</strong></a>
-              <ul>
-                <li><a href="#" id="mat_sem1">Sem. 1</a></li>
-                <li><a href="#" id="mat_sem2">Sem. 2</a></li>
-                <li><a href="#" id="mat_sem3">Sem. 3</a></li>
-                <li><a href="#" id="mat_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <li class="materia"><a href="#"><strong>RAZ. MATEMÁTICO</strong></a>
-              <ul>
-                <li><a href="#" id="rmat_sem1">Sem. 1</a></li>
-                <li><a href="#" id="rmat_sem2">Sem. 2</a></li>
-                <li><a href="#" id="rmat_sem3">Sem. 3</a></li>
-                <li><a href="#" id="rmat_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <!-- <li class="materia"><a href="#"><strong>RAZ. VERBAL</strong></a>
-              <ul>
-                <li>Sem. 1</li>
-                <li>Sem. 2</li>
-                <li>Sem. 3</li>
-                <li>Sem. 4</li>
-              </ul>
-            </li> -->
-            <li class="materia"><a href="#"><strong>EX. SEMANAL</strong></a>
-              <ul>
-                <li><a href="#" id="exsem_sem1">Sem. 1</a></li>
-                <li><a href="#" id="exsem_sem2">Sem. 2</a></li>
-                <li><a href="#" id="exsem_sem3">Sem. 3</a></li>
-                <li><a href="#" id="exsem_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
-            <li class="materia"><a href="#"><strong>SIMULACRO</strong></a>
-              <ul>
-                <li><a href="#" id="sim_sem1">Sem. 1</a></li>
-                <li><a href="#" id="sim_sem2">Sem. 2</a></li>
-                <li><a href="#" id="sim_sem3">Sem. 3</a></li>
-                <li><a href="#" id="sim_sem4">Sem. 4</a></li>
-              </ul>
-            </li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/cursos.html">Cursos</a></li>
+            <li><a href="../html/diplomados.html">Diplomados</a></li>
+            <li><a href="../html/aula.html">Aula Virtual</a></li>
           </ul>
         </div>
-      </div>
+      </nav>
     </div>
-    <div class="clase_aula" id="clase_aula">
-      <div class="material_aula" id="material_aula">
-        <p><strong><em>Material de Clase</em></strong></p>
-        <p id="tema_semana"></p>
-        <p><a id="lectura_complementaria" href="#" download><button type="button" name="button">Lectura Complementaria</button></a></p>
-        <p><a id="tarea_domiciliaria" href="#" download><button type="button" name="button">Tarea Domiciliaria</button></a></p>
-        <p id="fecha_presentacion"></p>
-      </div>
-      <div class="poster_aula">
-        <figure>
-          <img src="img/poster.jpg" alt="">
-        </figure>
-      </div>
+    <div class="contenido">
+      <section>
+        <article>
+          <h1>¡BIENVENIDOS!</h1>
+          <p>El <strong>Instituto Peruano de Investigación Básica y Aplicada E.I.R.L.</strong>, es una empresa dedicada a la investigación básica y aplicada, transferencia tecnológica y biotecnológica, capacitación, asesoría y prestación de servicios relacionados.</p>
+          <p>En el corto plazo el <strong>Instituto Peruano de Investigación Básica y Aplicada E.I.R.L.</strong>, se convertirá en el referente para la realización de investigaciones diversas en la región y a largo plazo se convertirá en el referente a nivel nacional.</p>
+          <marquee>
+            <p><em>"Comprometidos con el Desarrollo del País"</em></p>
+          </marquee>
+        </article>
+      </section>
+      <aside>
+        <figure><img src="../cursos/1.jpg" class="inicio"/></figure>
+      </aside>
     </div>
-    <div class="comunicate_aula" id="comunicate_aula">
-      <img src="img/app.svg" alt="">
-      <p class="celular_aula"><strong>(+51) 910 010 258 || CICLO 2020-I</strong></p>
+    <div class="principal">
+      <main>
+      </main>
     </div>
-    <div class="video_aula_max" id="video_aula_max">
-      <figure>
-        <iframe class="video_aula" id="video_aula" src="" poster="img/poster.jpg"></iframe>
-      </figure>
+    <div class="pie">
+      <footer>
+        <div class="general">
+          <div class="nombre_empresa">
+            <p><strong>INSTITUTO PERUANO DE INVESTIGACIÓN BÁSICA Y APLICADA E.I.R.L.</strong></p>
+          </div>
+          <div class="datos">
+            <p class="location1"><img src="../icons/location.svg"/><span>: </span><em>Av. La Unidad Mz. M - Lt. 4. Trujillo – La Libertad – Perú.</em></p>
+            <p class="location2"><img src="../icons/location.svg"/><span>: </span><em>Calle Huamantanga N° 1060–A. Oficina 402. Jaén – Cajamarca – Perú.</em></p>
+            <p class="phone"><img src="../icons/phone.svg"/><span>: </span><em>(+51) 970 901 735 || (+51) 932 146 496 || (+51) 935 584 294</em></p>
+            <p class="whatsapp"><img src="../icons/whatsapp.svg"/><span>: </span><em>(+51) 935 584 294  </em></p>
+            <p class="mail"><img src="../icons/mail.svg"/><span>: </span><em>ipibaeirl@gmail.com</em></p>
+          </div>
+          <div class="derechos">
+            <p><strong><small>Derechos Reservados &copy; 2020</small></strong></p>
+          </div>
+        </div>
+        <div class="redes"><a href="https://www.facebook.com/ipibaperu/" target="_blank"><img src="../icons/facebook.svg"/></a><a href="https://www.youtube.com/channel/UCNELdsZVr-eaDzx0EYzobLw" target="_blank"><img src="../icons/youtube.svg"/></a><a href="https://twitter.com/ipibaperu" target="_blank"><img src="../icons/twitter.svg"/></a></div>
+      </footer>
     </div>
-  </div>
-  <script type="text/javascript" src="js/login.js"></script>
-  <script type="text/javascript" src="js/limpiar.js"></script>
-  <script type="text/javascript" src="js/aula.js"></script>
-</body>
+    <script type="text/javascript" src="../js/login-dist.js"></script>
+    <script type="text/javascript" src="../js/limpiar-dist.js"></script>
+    <script type="text/javascript" src="../js/usuario_menu-dist.js"></script>
+  </body>
 </html>
