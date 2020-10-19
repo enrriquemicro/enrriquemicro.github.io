@@ -1,386 +1,576 @@
 @media (max-width: 320px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      /*height: 10.7vh;*/
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: .65em;
-      /*margin: 0px 10px;*/
-      margin: 0px 4px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    /*color: #9B8B99;*/
+    color: white;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
+
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 0.85em;*/
+    /*font-size: 2.36vmin;*/
+    font-size: 3.2vmax;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 10px;*/
+    /*margin: 5.4vmin 2vmin 0.5vmin 0vmin;*/
+    margin: 3.4vmin 2vmin 0.5vmin 0vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
     li:hover{
       color: white;
     }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: 0vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 12px;
-      /*margin: 18px 0px 0px 45px;*/
-      margin: 18px 0px 0px 5px;
-      visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 12.5px;*/
+    /*font-size: 2.2vmin;*/
+    /*font-size: 3vh;*/
+    font-size: 3vmax;
+    /*margin: xxpx 0px 0px 45px;*/
+    /*margin: 5.8vmin 0vmin 2.5vmin 9.7vmin;*/
+    margin: 3.9vmin 0vmin 2.5vmin 0vmin;
+    visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  }
 
-    /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    .empresa p::before{
-      content: "";
-      visibility: visible;
-    }
+  /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  .empresa p::before{
+    content: "";
+    visibility: visible;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -22px 0px 0px 5px;
-    }
+  .empresa figure{
+    /*background: green;*/
+    /*width: 32px;*/
+    /*width: 5vmin;*/
+    /*width: 8vh;*/
+    width: 8vmax;
+    /*height: 32px;*/
+    /*height: 5vmin;*/
+    /*height: 8vh;*/
+    height: 8vmax;
+    /*margin: -27px 0px 0px 5px;*/
+    /*margin: -6.4vmin 0vmin 0vmin 3vmin;*/
+    margin: -10vmin 0vmin 0vmin 3vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 25px;
-      height: 25px;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 30px;*/
+    /*width: 4.68vmin;*/
+    /*width: 8vh;*/
+    width: 8vmax;
+    /*height: 30px;*/
+    /*height: 4.68vmin;*/
+    /*height: 8vh;*/
+    height: 8vmax;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 480px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      /*height: 10.7vh;*/
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: .75em;
-      /*margin: 0px 10px;*/
-      margin: 0px 6px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    /*color: #9B8B99;*/
+    color: red;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
+
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 0.85em;*/
+    /*font-size: 2.36vmin;*/
+    font-size: 2vmax;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 10px;*/
+    /*margin: 5.4vmin 2vmin 0.5vmin 0vmin;*/
+    margin: 6vmin 2vmin 0.5vmin 0vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
     li:hover{
       color: white;
     }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: 0vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 12.5px;
-      /*margin: 18px 0px 0px 45px;*/
-      margin: 18px 0px 0px 5px;
-      visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 12.5px;*/
+    /*font-size: 2.2vmin;*/
+    /*font-size: 2.5vh;*/
+    font-size: 2.5vmax;
+    /*margin: xxpx 0px 0px 45px;*/
+    /*margin: 5.8vmin 0vmin 2.5vmin 9.7vmin;*/
+    margin: 5vmin 0vmin 2.5vmin 0vmin;
+    visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  }
 
-    /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    .empresa p::before{
-      content: "";
-      visibility: visible;
-    }
+  /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  .empresa p::before{
+    content: "";
+    visibility: visible;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -22px 0px 0px 5px;
-    }
+  .empresa figure{
+    /*background: green;*/
+    /*width: 32px;*/
+    /*width: 5vmin;*/
+    /*width: 8vh;*/
+    width: 8vmax;
+    /*height: 32px;*/
+    /*height: 5vmin;*/
+    /*height: 8vh;*/
+    height: 8vmax;
+    /*margin: -27px 0px 0px 5px;*/
+    /*margin: -6.4vmin 0vmin 0vmin 3vmin;*/
+    margin: -16.5vmin 0vmin 0vmin 3vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 25px;
-      height: 25px;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 30px;*/
+    /*width: 4.68vmin;*/
+    /*width: 8vh;*/
+    width: 8vmax;
+    /*height: 30px;*/
+    /*height: 4.68vmin;*/
+    /*height: 8vh;*/
+    height: 8vmax;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: .85em;
-      margin: 0px 10px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    /*color: #9B8B99;*/
+    color: white;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
+
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 0.85em;*/
+    /*font-size: 2.36vmin;*/
+    font-size: 2.6vmax;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 10px;*/
+    /*margin: 5.4vmin 2.4vmin 0.5vmin 0vmin;*/
+    margin: 6.1vmin 2.4vmin 0.5vmin 0vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
     li:hover{
       color: white;
     }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    /*height: 10vh;*/
+    height: 10vmax;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: 0.2vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 13.5px;
-      margin: 18px 0px 0px 45px;
-      visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 13.5px;*/
+    /*font-size: 2.3vmin;*/
+    font-size: 3vmax;
+    /*margin: 18px 0px 0px 45px;*/
+    /*margin: 3.26vmin 0vmin 2.5vmin 9.7vmin;*/
+    margin: 5.6vmin 0vmin 2.5vmin 15vmin;
+    visibility: hidden; /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  }
 
-    /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
-    .empresa p::before{
-      content: "IPIBA EIRL";
-      visibility: visible;
-    }
+  /* ESTO ES PARA CAMBIAR EL TEXTO DE LA ETIQUETA P */
+  .empresa p::before{
+    content: "IPIBA EIRL";
+    visibility: visible;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -22px 0px 0px 5px;
-    }
+  .empresa figure{
+    background: red;
+    /*width: 32px;*/
+    /*width: 5vmin;*/
+    width: 8vmax;
+    /*height: 32px;*/
+    height: 8vmax;
+    /*height: 5vmin;*/
+    /*margin: -27px 0px 0px 5px;*/
+    /*margin: -6.4vmin 0vmin 0vmin 3vmin;*/
+    margin: -20vmin 0vmin 0vmin 3vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 25px;
-      height: 25px;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 30px;*/
+    /*width: 4.68vmin;*/
+    width: 8vmax;
+    /*height: 30px;*/
+    /*height: 4.68vmin;*/
+    height: 8vmax;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: .95em;
-      margin: 0px 10px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    color: #9B8B99;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    height: 10vh;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
+
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 0.95em;*/
+    font-size: 2.64vmin;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 10px;*/
+    margin: 3vmin 2.4vmin 0.5vmin 0vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
     li:hover{
       color: white;
     }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    height: 10vh;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: 0.2vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 16px;
-      margin: 16px 0px 0px 45px;
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 16px;*/
+    font-size: 2.7vmin;
+    /*margin: 16px 0px 0px 45px;*/
+    margin: 2.9vmin 0vmin 2.5vmin 9.7vmin;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -24px 0px 0px 5px;
-    }
+  .empresa figure{
+    /*background: green;*/
+    /*width: 32px;*/
+    width: 5vmin;
+    /*height: 32px;*/
+    height: 5vmin;
+    /*margin: -27px 0px 0px 5px;*/
+    margin: -6.6vmin 0vmin 0vmin 3vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 28px;
-      height: 28px;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 30px;*/
+    width: 4.68vmin;
+    /*height: 30px;*/
+    height: 4.68vmin;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: 1.05em;
-      margin: 0px 25px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    color: #9B8B99;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    height: 10vh;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
+
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 1.05em;*/
+    font-size: 2.92vmin;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 25px;*/
+    margin: 3vmin 6vmin 0.5vmin 1.5vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
     li:hover{
       color: white;
     }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    height: 10vh;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: 0.2vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 19px;
-      margin: 15px 0px 0px 45px;
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 19px;*/
+    font-size: 3.2vmin;
+    /*margin: 15px 0px 0px 45px;*/
+    margin: 2.6vmin 0vmin 2.5vmin 9.7vmin;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -27px 0px 0px 5px;
-    }
+  .empresa figure{
+    /*background: green;*/
+    /*width: 32px;*/
+    width: 5vmin;
+    /*height: 32px;*/
+    height: 5vmin;
+    /*margin: -27px 0px 0px 5px;*/
+    margin: -6.8vmin 0vmin 0vmin 3vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 30px;
-      height: 30px;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 30px;*/
+    width: 4.68vmin;
+    /*height: 30px;*/
+    height: 4.68vmin;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media (min-width: 1201px){
-    .menu{
-      color: #9B8B99;
-      background: #373277;
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: auto;
-      margin-top: -8px;
-      margin-left: -8px;
-      text-align: right;
-      z-index: 3;
-    }
+  *{
+    margin: 0vmin;
+    padding: 0vmin;
+  }*
 
-    li{
-      display: inline-block;
-      list-style: none;
-      font-size: 1.15em;
-      margin: 0px 25px;
-      /*cursor: pointer*/
-    }
+  .menu{
+    color: #9B8B99;
+    background: #373277;
+    display: block;
+    position: fixed;
+    /*width: 100%;*/
+    width: 100vw;
+    /*height: auto;*/
+    height: 10vh;
+    /*margin-top: -8px;*/
+    margin-top: 0vmin;
+    /*margin-left: -8px;*/
+    margin-left: 0vmin;
+    text-align: right;
+    /*z-index: 1;*/
+  }
 
-    li:hover{
-      color: white;
-    }
+  li{
+    display: inline-block;
+    list-style: none;
+    /*font-size: 1.15em;*/
+    font-size: 3.2vmin;
+    /*line-height: 4vh;*/
+    /*text-align: justify;*/
+    /*margin: 0px 25px;*/
+    margin: 3vmin 6vmin 0.5vmin 1.5vmin;
+    /*cursor: pointer*/
+    z-index: 1;
+  }
 
-    .empresa{
-      /*background: red;*/
-      position: absolute;
-      width: auto;
-      height: 100%;
-      margin: -16px 0px 0px 0px;
-    }
+  li:hover{
+    color: white;
+  }
 
-    .empresa p{
-      color: white;
-      font-size: 20px;
-      margin: 12px 0px 0px 45px;
-    }
+  .empresa{
+    /*background: red;*/
+    position: absolute;
+    width: auto;
+    /*width: 50vw;*/
+    /*height: 100%;*/
+    height: 10vh;
+    /*margin: -16px 0px 0px 0px;*/
+    margin: -0.1vmin 0vmin 0vmin 0vmin;
+    z-index: -1;
+  }
 
-    .empresa figure{
-      /*background: none;*/
-      width: 32px;
-      height: 32px;
-      margin: -27px 0px 0px 5px;
-    }
+  .empresa p{
+    color: white;
+    /*font-size: 20px;*/
+    font-size: 3.6vmin;
+    /*margin: 12px 0px 0px 45px;*/
+    margin: 2.8vmin 0vmin 2.5vmin 9.7vmin;
+  }
 
-    .empresa img{
-      /*display: flex;*/
-      width: 32px;
-      height: 32px;
-    }
+  .empresa figure{
+    /*background: green;*/
+    /*width: 32px;*/
+    width: 5vmin;
+    /*height: 32px;*/
+    height: 5vmin;
+    /*margin: -27px 0px 0px 5px;*/
+    margin: -7.2vmin 0vmin 0vmin 3vmin;
+  }
 
-    /* ESTO ES PARA LOS ENLACES DEL MENU */
-    .navegacion a{
-      text-decoration: none;
-      color: inherit;
-    }
+  .empresa img{
+    /*display: flex;*/
+    /*width: 32px;*/
+    width: 5vmin;
+    /*height: 32px;*/
+    height: 5vmin;
+  }
+
+  /* ESTO ES PARA LOS ENLACES DEL MENU */
+  .navegacion a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
